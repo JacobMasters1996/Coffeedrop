@@ -1,0 +1,88 @@
+//image classes
+home-ban = "/wp-content/uploads/2022/01/coffee-beans.jpg"
+
+
+
+//banenr styles 
+.block 
+	display block
+
+.ban
+	padding 0
+	position relative
+	overflow hidden
+	background: rgba(210,188,148,0.1);
+
+
+	.p-cont
+		font-size 1.4em
+
+	.carousel-inner
+		position relative
+		z-index 2
+		
+
+	.ban-wrap
+		height 600px
+		position relative
+		z-index 9
+		.max-p
+		p.f-c-white
+			max-width: 570px;
+
+
+		.subheading
+			margin-bottom: 20px;
+			
+		h1
+		.h1
+			font-size: 5.7em
+			color white-colour
+			font-weight: 500
+			letter-spacing: -3px;
+			line-height: 0.9em;
+			margin-bottom: 20px;
+			text-indent: -5px;
+		
+
+ 
+
+		.text-wrapper
+			position absolute 
+			top 50%
+			left 15px 
+			transform translatey(-50%)
+
+	&.sm
+		.ban-wrap
+			height 400px
+		
+		h1
+			margin-bottom 0
+
+	.b-vid-arrows
+		display: block;
+		width: auto;
+		height: auto;
+		position: absolute;
+		padding 20px 30px
+		bottom: 0;
+		z-index: 9999;
+		background gr	
+		right 115px
+		
+		.carousel-control-prev
+			margin-right 30px
+		
+		&:after
+			content: '';
+			position: absolute;
+			display: block;
+			width: 1px
+			height: calc(100% - 60px); 
+			background: rgba(255,255,255,0.2);
+			top: 30px;
+			left: 50%;
+	
+	&.home
+		background-image(home-ban, rgba(0,0,0,0.6), rgba(0,0,0,0.6))
