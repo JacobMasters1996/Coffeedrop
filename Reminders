@@ -1,0 +1,7 @@
+Reminders 
+
+put in header 
+
+    <script src="<?php echo get_template_directory_uri(); ?>/inc/assets/js/wow.js"></script>
+
+add seo yoast and write descriptions, add autoptimze also 
